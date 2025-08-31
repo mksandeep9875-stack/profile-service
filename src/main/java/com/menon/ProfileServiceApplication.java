@@ -6,12 +6,8 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication
 @ServletComponentScan
-public class ProfileServiceApplication
-{
-
-    public static void main(String[] args)
-    {
+public class ProfileServiceApplication {
+    public static void main(String[] args) {
         SpringApplication.run(ProfileServiceApplication.class, args);
     }
-
 }
