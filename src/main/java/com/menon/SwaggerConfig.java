@@ -14,7 +14,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(
                         new Info()
-                                .title("Social-Service Rest Api")
+                                .title("Profile-Service Rest Api")
                                 .description("Rest Api for Social Service of Egov")
                                 .version("1.0"));
     }
